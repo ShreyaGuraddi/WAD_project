@@ -1,0 +1,41 @@
+body{
+   background-color: rgb(224, 221, 221) ;
+   margin:0 auto;
+   padding: 0;
+   max-width: 700px;
+   height: 100vh;
+ }
+ 
+  #logo1{
+   height:250px;
+   width:290px;
+   border-radius: 100px;
+ }
+ 
+  .logo {
+   height: 200px;
+   position: relative;
+   animation-name: example;
+   animation-duration: 4s;
+   animation-fill-mode: forwards;
+ }
+ 
+ @keyframes example {
+   from {
+       top: 0px;
+       
+   }
+ 
+   to {
+       top: 230px;
+       
+      
+   }
+ }
+
+ #logo2{
+  width:290px;
+  height: auto;
+ }
+ 
+ 
