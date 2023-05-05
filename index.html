@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Eyakta</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;About</a>
+    <a href="#"><i class="fa fa-certificate" aria-hidden="true"></i>&nbsp;Offers</a>
+    <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i>&nbsp;My orders</a>
+    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;My wishlist</a>
+    <a href="#"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;Account</a>
+    <a href="#"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;Settings</a>
+
+  </div>
+
+  <nav class="navbar " >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <button class="btn" onclick="openNav()" style="cursor:pointer"><i class="fa fa-bars" id="i1"></i></button>
+        <img src="img/new_logo.jpeg" id="img1">
+        <img src="img/brand_name.png" id="img2">
+        <button class="btn " id="r3"><i class="fa fa-user-circle"></i></button>&nbsp;
+        <button class="btn " id="r1"><i class="fa fa-home"></i></button>&nbsp;
+        <button class="btn " id="r2"><i class="fa fa-shopping-bag"></i></button>
+
+      </a>
+    </div><br>
+    <div>
+      <nav class="navbar ">
+        <div class="container-fluid"  >
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" id="search1" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn " type="submit" id="search"><i class="fa fa-search" ></i></button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </nav><br>
+
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col-2">
+        <button onclick="window.location.href='lips.html'" class="bt"><img src="img/lip-stick.jpeg" class="categories"></img></button><br>
+        Lips
+      </div>
+      <div class="col-2">
+        <button onclick="window.location.href='eyes.html'" class="bt"><img src="img/eyes.jpeg"  class="categories"></img></button><br>
+        Eyes
+      </div>
+      <div class="col-2">
+        <button onclick="window.location.href='foundation.html'" class="bt"><img src="img/foundation.jpeg" class="categories"></img></button><br>
+        Foundation
+      </div>
+      <div class="col-2">
+        <button onclick="window.location.href='brush.html'" class="bt"><img src="img/brush1.jpeg" class="categories"></img></button><br>
+        Brushes
+      </div>
+      <div class="col-2">
+        <button onclick="window.location.href='perfumes.html'"class="bt"><img src="img/perfume.jpeg" class="categories"></img></button><br>
+        Perfumes
+      </div>
+      <div class="col-2">
+        <button onclick="window.location.href='nails.html'"class="bt"><img src="img/nails.jpeg" class="categories"></img></button><br>
+        Nails
+      </div>
+      </div>
+  </div><br><br>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides ">
+      <div class="numbertext">1 / 3</div>
+      <img src="img/slide1.png" class="slide1">
+      <div class="text">Eyakta beauty</div>
+    </div>
+    
+    <div class="mySlides ">
+      <div class="numbertext">2 / 3</div>
+      <img src="img/slide2.png" class="slide1">
+     
+    </div>
+    
+    <div class="mySlides ">
+      <div class="numbertext">3 / 3</div>
+      <img src="img/silde 3.png" class="slide1">
+      <div class="text">Eyakta beauty</div>
+    </div>
+    
+    <a class="prev" style="text-decoration: none" onclick="plusSlides(-1)">❮</a>
+    <a class="next" style="text-decoration: none" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div><br><br>
+
+    <div>
+      <h1>Trending Products</h1>
+    </div><br>
+
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/eye-shadow.jpeg" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Eye Shadow</p>
+              <p class="card-text">Rs.1500</p>
+              <button class="btn2"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+              <button href="#" class="btn1" style="text-decoration: none;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/compact.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Compact</p>
+              <p class="card-text">Rs.1850</p>
+              <button class="btn2"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+              <button href="#" class="btn1" style="text-decoration: none;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/lip_balm.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Lip balm</p>
+              <p class="card-text">Rs.400</p>
+              <button class="btn2"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+              <button href="#" class="btn1" style="text-decoration: none;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/mascara.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Mascara</p>
+              <p class="card-text">Rs.250</p>
+              <button class="btn2"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+              <button href="#" class="btn1" style="text-decoration: none;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br><br>
+
+
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/perfume2.jfif" class="card-img-top" >
+            <div class="card-body">
+              <p class="card-text">Versace perfume</p>
+              <p class="card-text">Rs.22500</p>
+              <button class="btn2"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+              <button href="#" class="btn1" style="text-decoration: none;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/eye-palot.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Eye-palot</p>
+              <p class="card-text">Rs.970</p>
+              <button class="btn2"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+              <button href="#" class="btn1" style="text-decoration: none;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/shampoo.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Shampoo</p>
+              <p class="card-text">Rs.550</p>
+              <button class="btn2"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+              <button href="#" class="btn1" style="text-decoration: none;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/foundation2.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Foundation</p>
+              <p class="card-text">Rs.620</p>
+              <button class="btn2"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+              <button href="#" class="btn1" style="text-decoration: none;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br><br><br><br>
+
+    <footer>
+      <div class="container ">
+        <div class="row align-items-start">
+          <div class="col-3 aaa">
+             <h3 style="color:rgb(217, 80, 126);">Company</h3><hr style=" width:100px; height:5px;">
+             <p>About us</p>
+             <p>Our Services</p>
+             <p>Privacy Policy</p>
+             <p>Affiliate Program</p>
+          </div>
+          <div class="col-3 aaa">
+            <h3 style="color:rgb(217, 80, 126);">Get Help</h3><hr style=" width:100px; height:5px;">
+             <p>FAQ</p>
+             <p>Shipping</p>
+             <p>Returns</p>
+             <p>Order Status</p>
+             <p>Payment Options</p>
+
+          </div>
+          <div class="col-3 aaa">
+            <h3 style="color:rgb(217, 80, 126);">Online Shop</h3><hr style=" width:100px; height:5px;">
+             <p>Make up</p>
+             <p>Skincare</p>
+             <p>Hair products</p>
+             <p>Nail Paints</p>
+
+          </div>
+          <div class="col-3 aaa">
+            <h3 style="color:rgb(217, 80, 126);">Follow</h3><hr style=" width:100px; height:5px;">
+            <i class="fa fa-facebook" aria-hidden="true" style="font-size: larger;"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-twitter" aria-hidden="true" style="font-size: larger;"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-instagram" aria-hidden="true" style="font-size: larger;"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-linkedin" aria-hidden="true" style="font-size: larger;"></i>
+
+          </div>
+
+        </div>
+      </div>
+      
+    </footer>
+
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+
+</body>
+
+</html>
